@@ -1,14 +1,10 @@
 import React from "react"
-import Header from "./components/Header/Header"
-import Body from "./components/Body/Body"
-import Footer from "./components/Footer/Footer"
+import TopBar from "./components/TopBar/TopBar"
 
 export default function App() {
     return(
         <>
-        <Header></Header>
-        <Body></Body>
-        <Footer></Footer>
+        <TopBar></TopBar>
         </>
     )
 }
