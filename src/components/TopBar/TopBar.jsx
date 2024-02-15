@@ -12,7 +12,7 @@ export function TopBar() {
                 <div class="displayButDiv">
                     <button class="displayButBut">
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" stroke="white" viewBox="0 0 24 24">
-                        <path stroke="white" stroke-linecap="round" stroke-width="1.5" d="M5 7h14M5 12h14M5 17h14"/>
+                        <path stroke="white" strokeLinecap="round" strokeWidth="1.5" d="M5 7h14M5 12h14M5 17h14"/>
                         </svg>
                     </button>
                 </div>

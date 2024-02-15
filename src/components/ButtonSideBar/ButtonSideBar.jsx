@@ -1,3 +1,4 @@
+import './ButtonSideBar.css'
 import React from "react"
 import { useState } from 'react'
 
@@ -7,13 +8,14 @@ export function ButtonSideBar({
   }) {
     return(
         <>
-        <div class="all">
+        <button class="all">
 
-        <img src={image} />
+        <img class ="imgicon" src={image} />
 
         <span class="">{title}</span>
 
-        </div>
+
+        </button>
         </>
     )
 }
