@@ -39,17 +39,21 @@
     align-items: center;
     width: 120px;
     height: 56px;
+    margin-left: 5%;
 }
 
 .search-button{
     display: flex;
     width: 13%;
     height: 40px;
+    border: none;
+    border: 0.25px solid;
+    border-color: #747474;
     border-radius: 40px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     box-sizing: border-box;
-    
+    background-color: #131313;
 }
 
 .search-input{
@@ -129,8 +133,13 @@
     width: 40px;
     height: 40px;
     margin-left: 20px;
+    border: none;
     border-radius: 100%;
+    background-color: #131313;
+}
 
+.microphonebutton:hover{
+    background-color: rgb(41, 41, 41);
 }
 
 .acceder{
