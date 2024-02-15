@@ -10,9 +10,9 @@ export function ButtonSideBar({
         <>
         <button class="all">
 
-        <img class ="imgicon" src={image} />
+        <img class="imgicon" src={image} />
 
-        <span class="">{title}</span>
+        <span class="letter">{title}</span>
 
 
         </button>
