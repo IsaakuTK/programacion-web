@@ -1,13 +1,15 @@
 import './Categories.css'
 import React from "react"
 import { CategoriesButtons } from "../CategoriesButtons/CategoriesButtons";
-import { Buttons } from "../../data/datasidebar"
+import { CategoriesB } from "../../data/categories"
 
 export function Categories() {
     return(
         <>
-        <div>
-            <CategoriesButtons></CategoriesButtons>
+        <div class="all2">
+                {CategoriesB.map((button, noteIndex) => (
+                    <CategoriesButtons key={noteIndex} title={button.title}></CategoriesButtons>
+                    ))}
         </div>
         </>
     )

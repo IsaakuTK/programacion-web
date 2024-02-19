@@ -1,11 +1,8 @@
 .sidebar-container{
 
-        position: fixed;
-        justify-content: center;
-        align-items: center;
-        top: 5%;
-        left: 0;
-        width: 3%;
+        display: flex;
+        justify-content: top;
+        flex-direction: column;
         height: 100%;
         padding-top: 1.5%;
         box-sizing: border-box;

@@ -1,0 +1,8 @@
+.allbody{
+
+}
+
+.allcontent{
+    display: flex;
+    flex-direction: row;
+}

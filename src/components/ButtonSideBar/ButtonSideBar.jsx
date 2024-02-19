@@ -12,7 +12,7 @@ export function ButtonSideBar({
 
         <img class="imgicon" src={image} />
 
-        <span class="letter">{title}</span>
+        <span class="lettert">{title}</span>
 
 
         </button>
