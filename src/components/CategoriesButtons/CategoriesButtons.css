@@ -4,7 +4,7 @@
     width: fit-content;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    height: 3%;
+    height:fit-content;
     align-items: center;
     justify-content: center;
     border: none;
@@ -14,11 +14,14 @@
 }
 
 .allcat:hover{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(65, 65, 65);
 }
 
 
 .letter{
+    display: flex;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: white;
     font-size:1.8ch;
     display: block;

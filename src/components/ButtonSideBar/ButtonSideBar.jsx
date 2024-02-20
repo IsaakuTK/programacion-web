@@ -2,11 +2,11 @@ import './ButtonSideBar.css'
 import React from "react"
 import { useState } from 'react'
 
-export function ButtonSideBar({
-    title = "",
-    image = "",
-  }) {
-    return(
+export function ButtonSideBar ({
+  title = '',
+  image = ''
+}) {
+  return(
         <>
         <button class="all">
 

@@ -1,0 +1,28 @@
+.video-thumbnail {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .video-thumbnail img {
+    width: 120px;
+    height: 90px;
+    margin-right: 10px;
+  }
+  
+  .video-details {
+    flex: 1;
+  }
+  
+  .video-details h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .video-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }

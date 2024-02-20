@@ -1,6 +1,6 @@
 export const CategoriesB = [
     {
-        title:"Todos",
+        title:"Todo",
     },
     {
         title:"Música",
