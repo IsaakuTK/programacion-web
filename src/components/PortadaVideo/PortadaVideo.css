@@ -1,8 +1,8 @@
 .AllChannelVideos {
   display: flex;
   flex-direction: column;
-  width: 343px;
-  height: 311px;
+  width: 100%;
+  height: 100%;
   margin: 0 auto; /* Centra el contenedor */
 }
 
@@ -20,7 +20,7 @@
   border-radius: 5px;
   padding-left: 3px;
   padding-right: 3px;
-  background-color: rgb(34, 34, 34);
+  background-color: #0f0f0fe7;
   position: absolute;
   bottom: -6%;
   right: 1%;

@@ -1,5 +1,5 @@
 .allbody{
-
+    width: 100%;
 }
 
 .allcontent{
@@ -12,4 +12,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.All-content{
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 2%;
+    overflow-y: auto;
+    margin-top: 0.5%;
 }

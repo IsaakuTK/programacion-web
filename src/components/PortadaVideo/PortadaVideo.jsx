@@ -22,7 +22,7 @@ export function PortadaVideo({ stream = {} }) {
           <div className="moreinfo">
             <p>{stream.views} visualizaciones</p>
             <p>&nbsp; • &nbsp;</p>
-            <p>hace{stream.since}</p>  
+            <p>hace {stream.since}</p>  
           </div>
         </div>
         

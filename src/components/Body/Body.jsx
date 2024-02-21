@@ -12,7 +12,12 @@ export function Body() {
         <SideBar />
         <div className='ContentInside'>
           <Categories />
-          <AllVideos />
+          <div className='All-content'>
+            <AllVideos />
+            <AllVideos />
+            <AllVideos />
+            <AllVideos />
+          </div>
         </div>
 
       </div>

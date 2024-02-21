@@ -28,5 +28,34 @@ export const CategoriesB = [
     },
     {
         title:"Balada Románticas",
+    },    {
+        title:"Entretenimiento deportivo",
+    },
+    {
+        title:"Pulseadas",
+    },
+    {
+        title:"Videojuegos",
+    },
+    {
+        title:"Combo",
+    },
+    {
+        title:"Nintendo",
+    },
+    {
+        title:"Juego de rol",
+    },
+    {
+        title:"Competiciones",
+    },
+    {
+        title:"Peliculas de comedia",
+    },
+    {
+        title:"Visto",
+    },
+    {
+        title:"Novedad para ti",
     }
 ]
