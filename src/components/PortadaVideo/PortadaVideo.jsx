@@ -1,16 +1,33 @@
-import './PortadaVideo.css'; 
 import React from 'react';
+import './PortadaVideo.css';
 
-export function PortadaVideo () {
+export function PortadaVideo({ stream = {} }) {
   return (
-    <div className="video-thumbnail">
-      <img src="https://i.ytimg.com/vi/XXYlFuWEuKI/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAVxfT5zvzKOwFKKlZESGDIerVWHA" alt="Video Thumbnail" />
-      <div className="video-details">
-        <h3>siuuu</h3>
-        <p>siuuu</p>
-        <p>{1} visualizaciones</p>
-        <p>hace {2}</p>
+    <div className='AllChannelVideos'>
+
+      <div className="VideoImageDiv">
+        <img src={stream.src} alt="Video" />
+        <p className='minutes'>{stream.minutes}</p>
       </div>
+
+      <div className='infovideo'>
+
+        <div>
+          <img className="profilechannel" src={stream.src} alt="Channel Profile" />
+        </div>
+  
+        <div className="videotexts">
+          <h1>{stream.title}</h1>
+          <p>{stream.streamer_name}</p>
+          <div className="moreinfo">
+            <p>{stream.views} visualizaciones</p>
+            <p>&nbsp; • &nbsp;</p>
+            <p>hace{stream.since}</p>  
+          </div>
+        </div>
+        
+      </div>
+
     </div>
   )
 }

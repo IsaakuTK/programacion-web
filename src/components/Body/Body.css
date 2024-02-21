@@ -5,4 +5,11 @@
 .allcontent{
     display: flex;
     flex-direction: row;
+    width: 100%;
+}
+
+.ContentInside{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }

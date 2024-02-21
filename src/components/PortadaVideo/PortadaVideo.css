@@ -1,28 +1,72 @@
-.video-thumbnail {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .video-thumbnail img {
-    width: 120px;
-    height: 90px;
-    margin-right: 10px;
-  }
-  
-  .video-details {
-    flex: 1;
-  }
-  
-  .video-details h3 {
-    margin: 0;
-    font-size: 18px;
-    color: #333;
-  }
-  
-  .video-details p {
-    margin: 5px 0;
-    font-size: 14px;
-    color: #666;
-  }
+.AllChannelVideos {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  height: 311px;
+  margin: 0 auto; /* Centra el contenedor */
+}
+
+.VideoImageDiv {
+  position: relative;
+  align-items: center; 
+  justify-content: center; 
+  width: 343px;
+  height: 193px;
+  display: flex;
+}
+
+.minutes{
+  display: flex;
+  border-radius: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: rgb(34, 34, 34);
+  position: absolute;
+  bottom: -6%;
+  right: 1%;
+  font-size: 14px;
+}
+
+.VideoImageDiv img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.profilechannel {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.infovideo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-top: 10px; /* Agrega espacio entre la imagen y el texto */
+}
+
+.videotexts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  line-height: 1.2; /* Ajusta según tus necesidades */
+}
+
+.videotexts h1 {
+  font-size: medium;
+  margin: 2px 0; /* Elimina el margen del h1 */
+}
+
+.videotexts p {
+  font-size: small;
+  color: rgb(175, 175, 175);
+  margin: 2px 0; /* Ajusta según tus necesidades */
+}
+
+.moreinfo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px; /* Ajusta según tus necesidades */
+}
+

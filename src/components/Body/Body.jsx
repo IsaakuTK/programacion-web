@@ -2,7 +2,7 @@ import './Body.css'
 import React from "react";
 import { SideBar } from "../SideBar/SideBar";
 import { Categories } from "../Categories/Categories";
-import { PortadaVideo } from '../PortadaVideo/PortadaVideo'
+import { AllVideos } from '../AllVideos/AllVideos'
 
 export function Body() {
   return (
@@ -10,9 +10,9 @@ export function Body() {
     <body class="allbody">
       <div class="allcontent">
         <SideBar />
-        <div>
+        <div className='ContentInside'>
           <Categories />
-          <PortadaVideo />
+          <AllVideos />
         </div>
 
       </div>
