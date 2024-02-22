@@ -2,9 +2,10 @@ import './SideBar.css'
 import React from "react"
 import { useState } from 'react'
 import { ButtonSideBar } from "../ButtonSideBar/ButtonSideBar";
+import { ButtonSideBarLarge } from "../ButtonSideBarLarge/ButtonSideBarLarge";
 import { Buttons } from "../../data/datasidebar"
 
-export function SideBar({Open=true}) {
+export function SideBar({Open=false}) {
     return(
         <>
         <div class="sidebar-container">
@@ -18,9 +19,11 @@ export function SideBar({Open=true}) {
 
             {Open &&(
                 <>
+                    <div>
                     {Buttons.map((button, noteIndex) => (
-                        <ButtonSideBar key={noteIndex} title={button.title} image={button.image}></ButtonSideBar>
+                        <ButtonSideBarLarge key={noteIndex} title={button.title} image={button.image}></ButtonSideBarLarge>
                     ))}
+                    </div>
                 </>
             )}
 
