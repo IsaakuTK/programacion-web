@@ -1,24 +1,23 @@
 import './Body.css'
-import React from "react";
-import { SideBar } from "../SideBar/SideBar";
-import { Categories } from "../Categories/Categories";
+import React from "react"
+import { SideBar } from "../SideBar/SideBar"
+import { Categories } from "../Categories/Categories"
 import { AllVideos } from '../AllVideos/AllVideos'
+import { DownList } from '../DownList/DownList'
 
 export function Body() {
   return (
     <>
-    <body class="allbody">
-      <div class="allcontent">
+    <body className="allbody">
+      <div className="allcontent">
         <SideBar />
         <div className='ContentInside'>
           <Categories />
-          <div className='All-content'>
-            <AllVideos />
-            <AllVideos />
-            <AllVideos />
-            <AllVideos />
-            <AllVideos />
-            <AllVideos />
+          <div className='All-content-inside'>
+              <div className='Padding-container'>
+                <AllVideos />
+                <AllVideos />
+              </div>
           </div>
         </div>
 

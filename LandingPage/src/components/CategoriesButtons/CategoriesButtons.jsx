@@ -8,9 +8,9 @@ export function CategoriesButtons({
   }) {
     return(
         <>
-        <button class="allcat">
+        <button className="allcat">
 
-        <span class="letter">{title}</span>
+        <span className="letter">{title}</span>
 
 
         </button>

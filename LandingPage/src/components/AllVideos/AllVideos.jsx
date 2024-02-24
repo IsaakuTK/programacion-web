@@ -7,8 +7,8 @@ import { PortadaVideo } from  "../PortadaVideo/PortadaVideo"
 export function AllVideos () {
   return (
     <div className='allvideos'>
-        {StreamInfo.map((info) => (
-            <PortadaVideo stream={info}/>
+        {StreamInfo.map((info, key) => (
+            <PortadaVideo key={key} stream={info}/>
         ))}
   </div>
   )

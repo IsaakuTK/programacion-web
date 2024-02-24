@@ -8,11 +8,11 @@ export function ButtonSideBar ({
 }) {
   return(
         <>
-        <button class="all">
+        <button className="all">
 
-        <img class="imgicon" src={image} />
+        <img className="imgicon" src={image} />
 
-        <span class="lettert">{title}</span>
+        <span className="lettert">{title}</span>
 
 
         </button>

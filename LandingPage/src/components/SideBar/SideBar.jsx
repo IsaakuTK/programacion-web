@@ -6,9 +6,12 @@ import { ButtonSideBarLarge } from "../ButtonSideBarLarge/ButtonSideBarLarge";
 import { Buttons } from "../../data/datasidebar"
 
 export function SideBar({Open=false}) {
+
+    const [open, setOpen] = useState(Open)
+    
     return(
         <>
-        <div class="sidebar-container">
+        <div className="sidebar-container">
             {Open==false &&(
                 <>
                     {Buttons.map((button, noteIndex) => (

@@ -6,7 +6,7 @@ import { CategoriesB } from "../../data/categories"
 export function Categories() {
     return(
         <>
-        <div class="all2">
+        <div className="all2">
                 {CategoriesB.map((button, noteIndex) => (
                     <CategoriesButtons key={noteIndex} title={button.title}></CategoriesButtons>
                     ))}

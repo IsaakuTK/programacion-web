@@ -1,0 +1,14 @@
+.downlistall{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 43, 43);
+    width:fit-content;
+    height:fit-content;
+    border-radius: 15px;
+    padding-left: 1%;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50px;
+}

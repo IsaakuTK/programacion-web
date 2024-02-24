@@ -1,0 +1,23 @@
+.d-but{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 40px;
+    align-items: center;
+    justify-content: start;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.d-but img{
+    width: 24px;
+    height: 24px;
+}
+
+.d-but p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
