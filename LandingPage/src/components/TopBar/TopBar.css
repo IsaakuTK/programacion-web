@@ -50,13 +50,13 @@
     justify-content: center;
     height: 40px;
     border: none;
-    border: 0.25px solid;
+    border-left: 0.25px solid;
     border-color: #747474;
     border-radius: 40px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     box-sizing: border-box;
-    background-color: #131313;
+    background-color: #1f1f1f;
 }
 
 .search-input{
@@ -76,6 +76,7 @@
     height: 24px;
     align-items: center;
     justify-content: center;
+    stroke: #d4d4d4;
 }
 
 .displayButDiv{
@@ -145,7 +146,7 @@
 }
 
 .microphonebutton:hover{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(65, 65, 65);
 }
 
 .acceder{
@@ -166,6 +167,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    border: 0.25px solid;
+    border-radius: 40px;
+    border-color:rgb(97, 97, 97);
 }
 
 .micro-container{
@@ -173,6 +177,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 3%;
+    background-color: rgb(41, 41, 41);
+    border-radius: 40px;
 }
 
 .country-code{

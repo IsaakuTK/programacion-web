@@ -4,6 +4,7 @@ import { SideBar } from "../SideBar/SideBar"
 import { Categories } from "../Categories/Categories"
 import { AllVideos } from '../AllVideos/AllVideos'
 import { DownList } from '../DownList/DownList'
+import { AllShorts } from '../AllShorts/AllShorts'
 
 export function Body() {
   return (
@@ -15,6 +16,10 @@ export function Body() {
           <Categories />
           <div className='All-content-inside'>
               <div className='Padding-container'>
+                <AllVideos />
+                <AllVideos />
+                <AllShorts />
+                <AllVideos />
                 <AllVideos />
                 <AllVideos />
               </div>
