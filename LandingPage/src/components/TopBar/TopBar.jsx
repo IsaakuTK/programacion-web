@@ -3,10 +3,13 @@ import Youtube from "../../Images/youtube.png"
 import React from "react"
 import { useState } from 'react'
 import { DownList } from '../DownList/DownList'
+import { Buttons } from "../../data/datasidebar"
+import { ButtonSideBarLarge } from '../ButtonSideBarLarge/ButtonSideBarLarge'
 
 export function TopBar() {
 
     const [open, setOpen] = useState(false)
+    const [opensidebar, setOpensidebar] = useState(false)
 
     return(
         <>
@@ -14,12 +17,36 @@ export function TopBar() {
 
             <div className="left"> 
                 <div className="displayButDiv">
-                    <button className="displayButBut">
+                    <button className="displayButBut"
+                    onClick={()=> setOpensidebar(true)}>
                         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" stroke="white" viewBox="0 0 24 24">
                         <path stroke="white" strokeLinecap="round" strokeWidth="1.5" d="M5 7h14M5 12h14M5 17h14"/>
                         </svg>
 
                     </button>
+                    
+                    {opensidebar &&(
+                        <>
+                            <div className='sidebardisplay'>
+                                <div className='things'>
+                                    <button className="displayButBut"
+                                    onClick={()=> setOpensidebar(false)}>
+                                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="white" stroke="white" viewBox="0 0 24 24">
+                                        <path stroke="white" strokeLinecap="round" strokeWidth="1.5" d="M5 7h14M5 12h14M5 17h14"/>
+                                        </svg>
+                                    </button>
+                                <div className="allIconY">
+                                    <img className="YoutubeIcon" src={Youtube} alt="" />
+                                    <span className="country-code">CO</span>
+                                </div>
+                                </div>
+                            {Buttons.map((button, noteIndex) => (
+                                <ButtonSideBarLarge key={noteIndex} title={button.title} image={button.image}></ButtonSideBarLarge>
+                            ))}
+                            </div>
+                        </>
+                    )}
+
                 </div>
 
                 <div className="allIconY">
@@ -29,14 +56,14 @@ export function TopBar() {
             </div>
 
             <div className="center">
-                <div className="search-container">
+                <form className="search-container">
                     <input className="search-input" type="text" id="search" placeholder="Buscar"/>
                     <button className="search-button">
                         <svg className="searchvec" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" >
                         <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
                     </button>
-                </div>
+                </form>
 
                 <div className="micro-container">
                     <button className="microphonebutton">

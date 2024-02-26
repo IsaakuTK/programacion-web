@@ -1,7 +1,7 @@
 .AllChannelVideos {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   height: 100%;
   padding-right: 1%;
 }
@@ -9,9 +9,10 @@
 .VideoImageDiv {
   display: flex;
   position: relative;
+  z-index: 0;
   align-items: center; 
   justify-content: center; 
-
+  
 }
 
 .minutes{
@@ -41,7 +42,6 @@
 .infovideo {
   display: flex;
   flex-direction: row;
-  position: relative;
   margin-top: 10px; /* Agrega espacio entre la imagen y el texto */
 }
 

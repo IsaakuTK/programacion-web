@@ -4,13 +4,12 @@
     position: sticky;
     top: 0;
     left: 0;
-     width: 100%;
      height: 56px;
-     z-index: 100;
      display: flex;
      justify-content: space-between;
      align-items: center;
      padding: 0 16px;
+     z-index: 1;
 }
 
 .left{
@@ -21,6 +20,7 @@
 }
 
 .center{
+    min-width: 0;
     display: flex;
     align-items: center;
     justify-content: space-evenly; 
@@ -30,9 +30,10 @@
 .right{
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     width: 100%;
     margin-right: 20px;
+    min-width: 225px;
 }
 
 .allIconY{
@@ -62,11 +63,13 @@
 .search-input{
     display: flex;
     width: 100%;
-    height: 40px;
-    border-radius: 40px;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
     background-color: transparent;
+    border: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.search-input:focus-visible{
     border: none;
 }
 
@@ -82,10 +85,33 @@
 .displayButDiv{
     display: flex;
     position: relative;
+    z-index: 1;
     align-items: center;
     justify-content: center;
     width: 40px;
     height: 40px;
+}
+
+.sidebardisplay{
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    height:1000px;
+    background-color:#0f0f0f;
+    flex-direction: column;
+    position: absolute;
+    z-index: 999;
+    left: -10px;
+    top:-10px;
+}
+
+.things{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .accederText{
@@ -162,11 +188,15 @@
     
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.search-container{
+
     width: 100%;
+    height: 40px;
+    flex: 1;
+    flex-basis: 1e-9px;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
     border: 0.25px solid;
     border-radius: 40px;
     border-color:rgb(97, 97, 97);
@@ -187,4 +217,17 @@
     margin-bottom: 20px;
     margin-left: 5px;
     
+}
+
+@media (max-width: 1366px) {
+.displayButDiv{
+    justify-content: space-around;
+}
+.center{
+    flex: 0 1 732px;
+}
+}
+
+@media (max-width: 430px) {
+
 }
