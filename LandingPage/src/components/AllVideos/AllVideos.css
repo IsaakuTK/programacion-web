@@ -24,6 +24,15 @@
     display: none;
 }
 
+.allvideo-phone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 3%;
+    display: none;
+}
 
 @media (max-width: 1366px) {
     .allvideos-ipad{
@@ -36,5 +45,15 @@
 }
 
 @media (max-width: 430px) {
+    .allvideos-ipad{
+        display:none ;
+    }
 
+    .allvideos{
+        display: none;
+    }
+    
+    .allvideo-phone{
+        display:flex ;
+    }
 }

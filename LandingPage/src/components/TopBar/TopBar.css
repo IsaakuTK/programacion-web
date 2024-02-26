@@ -219,6 +219,21 @@
     
 }
 
+.topbarphone{
+    background-color: #0f0f0f;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 10;
+    flex-direction: row;
+    justify-content: space-between;
+    display: none;
+}
+
+
 @media (max-width: 1366px) {
 .displayButDiv{
     justify-content: space-around;
@@ -229,5 +244,19 @@
 }
 
 @media (max-width: 430px) {
-
+    .DivTopBar{
+         display: none;
+    }
+    .displayBut{
+        stroke: white;
+    }
+    .iycontent{
+        display: flex;
+        flex-direction: row;
+        padding-right: 20px;
+        justify-content: space-evenly;
+    }
+    .topbarphone{
+        display: flex;
+    }
 }

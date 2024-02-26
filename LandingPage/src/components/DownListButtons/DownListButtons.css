@@ -10,6 +10,10 @@
     padding-left: 10px;
 }
 
+.d-but:hover{
+background-color: rgb(88, 88, 88)
+}
+
 .d-but img{
     width: 24px;
     height: 24px;

@@ -29,9 +29,11 @@ export function SideBar({Open=false}) {
                     </div>
                 </>
             )}
-
-
-
+        </div>
+        <div className='fulldownbar'>
+                <ButtonSideBar key={"some"} title={"Principal"} image={"https://icon-library.com/images/white-home-icon-png/white-home-icon-png-21.jpg"}></ButtonSideBar>
+                <ButtonSideBar key={"some"} title={"Shorts"} image={"https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-shorts-white-icon.png"}></ButtonSideBar>
+                <ButtonSideBar key={"some"} title={"Hitorial"} image={"https://cdn.icon-icons.com/icons2/2483/PNG/512/history_icon_149927.png"}></ButtonSideBar>
         </div>
         </>
     )

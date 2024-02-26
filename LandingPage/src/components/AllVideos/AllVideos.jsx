@@ -26,6 +26,10 @@ export function AllVideos () {
               <PortadaVideo key={key} stream={info}/>
           ))}
         </div>
+
+      <div className='allvideo-phone'>
+        <PortadaVideo key={"iphone"} stream={StreamInfo[1]}/>
+        </div>
   </div>
   )
 }

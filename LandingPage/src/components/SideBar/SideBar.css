@@ -7,3 +7,26 @@
         box-sizing: border-box;
         padding: 4px;
 }
+
+.fulldownbar{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 48px;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        background-color: #0f0f0f;
+}
+
+@media (max-width: 430px) {
+        .sidebar-container{
+
+                display: none;
+        }
+        .fulldownbar{
+                display: flex;
+        }
+        
+    }

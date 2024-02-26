@@ -9,3 +9,9 @@
     overflow-y: hidden;
     scrollbar-width:none;
 }
+
+@media (max-width: 430px) {
+    .all2{
+         display: none;
+    }
+}
