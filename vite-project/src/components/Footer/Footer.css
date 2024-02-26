@@ -1,0 +1,10 @@
+.secrettext {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.footer {
+    width: 100%;
+}

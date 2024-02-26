@@ -1,6 +1,6 @@
 import React from 'react'
 export function Header(){
     return(
-      <header>Isaac Calle Cardozo</header>
+      <header>POKEMON TRAINER! GO AND CATCH SOME POKEMONS!</header>
     )
 }
