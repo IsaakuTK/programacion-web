@@ -4,7 +4,7 @@ import { SecretPopUp } from "../SecretPopUp/SecretPopUp"
 import axios from 'axios';
 export function Body(){
  
-    const [counter, setCounter] = useState(1000);
+    const [counter, setCounter] = useState(1);
     const [dataPoke, setDataPoke] = useState({});
     const [openSecret, setOpenSecret] = useState(false);
 
@@ -33,7 +33,9 @@ export function Body(){
     };
 
     const handleClick2 = () => {
+      if (counter > 1) {
         setCounter(counter - 1);
+      }
     };
 
     const resetClick = () => {
