@@ -1,21 +1,19 @@
 import './ButtonSideBarLarge.css'
-import React from "react"
-import { useState } from 'react'
+import React from 'react'
 
 export function ButtonSideBarLarge ({
   title = '',
   image = ''
 }) {
-  return(
-        <>
-        <button className="al">
+  return (
+    <>
+      <button className='al'>
 
-        <img className="imgicons" src={image} />
+        <img className='imgicons' src={image} />
 
-        <p className="letterts">{title}</p>
+        <p className='letterts'>{title}</p>
 
-
-        </button>
-        </>
-    )
+      </button>
+    </>
+  )
 }

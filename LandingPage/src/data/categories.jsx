@@ -1,61 +1,61 @@
 export const CategoriesB = [
-    {
-        title:"Todo",
-    },
-    {
-        title:"Música",
-    },
-    {
-        title:"Listas de reproducción",
-    },
-    {
-        title:"Chill out",
-    },
-    {
-        title:"En tiempo real",
-    },
-    {
-        title:"Música clásica",
-    },
-    {
-        title:"Música de meditación",
-    },
-    {
-        title:"Música intrumental",
-    },
-    {
-        title:"Jazz",
-    },
-    {
-        title:"Balada Románticas",
-    },    {
-        title:"Entretenimiento deportivo",
-    },
-    {
-        title:"Pulseadas",
-    },
-    {
-        title:"Videojuegos",
-    },
-    {
-        title:"Combo",
-    },
-    {
-        title:"Nintendo",
-    },
-    {
-        title:"Juego de rol",
-    },
-    {
-        title:"Competiciones",
-    },
-    {
-        title:"Peliculas de comedia",
-    },
-    {
-        title:"Visto",
-    },
-    {
-        title:"Novedad para ti",
-    }
+  {
+    title: 'Todo'
+  },
+  {
+    title: 'Música'
+  },
+  {
+    title: 'Listas de reproducción'
+  },
+  {
+    title: 'Chill out'
+  },
+  {
+    title: 'En tiempo real'
+  },
+  {
+    title: 'Música clásica'
+  },
+  {
+    title: 'Música de meditación'
+  },
+  {
+    title: 'Música intrumental'
+  },
+  {
+    title: 'Jazz'
+  },
+  {
+    title: 'Balada Románticas'
+  }, {
+    title: 'Entretenimiento deportivo'
+  },
+  {
+    title: 'Pulseadas'
+  },
+  {
+    title: 'Videojuegos'
+  },
+  {
+    title: 'Combo'
+  },
+  {
+    title: 'Nintendo'
+  },
+  {
+    title: 'Juego de rol'
+  },
+  {
+    title: 'Competiciones'
+  },
+  {
+    title: 'Peliculas de comedia'
+  },
+  {
+    title: 'Visto'
+  },
+  {
+    title: 'Novedad para ti'
+  }
 ]
